@@ -2,19 +2,19 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
+import Widget from '../components/Widget'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex min-h-screen flex-col py-2">
       <Head>
         <title>Twitter Clone</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Sidebar />
         <Feed />
-        {/* Widgets */}
+        <Widget />
       </main>
 
     </div>
