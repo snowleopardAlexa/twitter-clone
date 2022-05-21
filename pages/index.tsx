@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <main>
         <Sidebar />
-        {/* Feed */}
+        <Feed />
         {/* Widgets */}
       </main>
 
